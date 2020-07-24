@@ -29,9 +29,11 @@ This is a repo containing all files to install broadcom B43 wifi Drivers
           
 Now, download all the files, and put them into a folder and give a name like "B43", then take the folder to your desktop.
    
-Now open the terminal and type this commands
-          sudo mkdir /lib/firmware/b43
-          sudo cp -/Desktop/b43/* /lib/firmware/b43
-          sudo modprobe b43
+Now open the terminal and type this commands:
+
+            sudo mkdir /lib/firmware/b43
+            sudo cp -/Desktop/b43/* /lib/firmware/b43
+            sudo modprobe b43
+            
 If your wireless doesn't start immediately then reboot.
 
