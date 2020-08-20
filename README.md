@@ -35,5 +35,5 @@ Now open the terminal and type this commands:
             sudo cp -/Desktop/b43/* /lib/firmware/b43
             sudo modprobe b43
             
-If your wireless doesn't start immediately then reboot.
+If your wireless doesn't start immediately then reboot your system.
 
